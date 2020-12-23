@@ -10,7 +10,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: joy
+    types: crazy
 jobs:
   build:
 
@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone -b master https://github.com/lxk0301/jd_scripts.git ~/jd_crazy_joy_coin.js
+          git clone -b master https://github.com/lxk0301/jd_scripts.git ~/jd_scripts
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:

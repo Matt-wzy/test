@@ -52,7 +52,6 @@ jobs:
           QQ_READ_HEADER_VAL: ${{ secrets.QQ_READ_HEADER_VAL }}
           QQ_READ_TIME_URL_VAL: ${{ secrets.QQ_READ_TIME_URL_VAL }}
           QQ_READ_TIME_HEADER_VAL: ${{ secrets.QQ_READ_TIME_HEADER_VAL }}
-          PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
           BARK_SOUND: ${{ secrets.BARK_SOUND }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
